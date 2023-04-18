@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# REACT-PROJECT-Movie.Zip
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React.js + Node.js로 만든 영화 커뮤니티 사이트입니다.
 
-## Available Scripts
+👉 [사이트 바로가기](https://movie-react-eight.vercel.app/) 👈
 
-In the project directory, you can run:
+## ⌚ 개발 기간
 
-### `npm start`
++ 23.02.01 ~ 23.02.14 (약 2주)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👨‍💻 작업 분담
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
++ 팀장 : 남민섭 - 회원 DB작성, 로그인, 회원가입, ID 찾기, PW찾기, 메인 페이지, 장르별 추천 영화 페이지, 검색 기능
++ 팀원1 : 권세영 - CSS, 슬라이드 메뉴바, 영화 상세 페이지, 현재 상영작 & 개봉 예정작 페이지  
++ 팀원2 : 김주원 - 공지사항 & 자유 게시판 페이지 
++ 팀원3 : 이창민 - 영화 정보와 영화 리뷰 DB작성, 이달의 추천 영화 페이지, 영화 리뷰 페이지 
 
-### `npm test`
+## 🔎 주요 기능
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 1. 메인 페이지 
 
-### `npm run build`
++ 메인 배너에는 가장 기대되는 작품의 제목과 줄거리, 메인 예고편을 배치
++ 하단의 커뮤니티 공간은 제목을 클릭하면 내용을 바로 볼 수 있음
++ 더보기를 누르면 해당 페이지로 이동
+<img src="https://user-images.githubusercontent.com/119985133/232641187-560475aa-3e61-4c8a-acb8-01d3280aad94.png" width="600">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 2. 영화 페이지 (현재 상영작 / 개봉 예정작 / 이달의 추천 영화)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
++ 영화 포스터, 간략한 줄거리, 평점을 배치
++ 클릭하면 상세 페이지로 이동
+<img src="https://user-images.githubusercontent.com/119985133/232641345-64696531-1e19-4b05-87f8-1f8a5c1d5b48.png" width="600">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 3. 장르별 추천 페이지
 
-### `npm run eject`
++ 장르별로 추천하는 영화를 나열
+<img src="https://user-images.githubusercontent.com/119985133/232642318-d545c3e5-4bb9-4271-a476-f076e9d2b7aa.png" width="600">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### 4. 영화 상세 페이지
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
++ 장르, 개봉일, 나라, 감독, 배우, 관람연령, 평점, 줄거리 등 상세한 정보 나열
++ 유튜브API(메인 예고편)를 사용
+<img src="https://user-images.githubusercontent.com/119985133/232641380-31e26458-7708-4e93-be30-0923c885aa8a.png" width="600">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### 5. 영화 한줄평 & 영화 추천
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
++ 로그인을 해야 쓸 수 있는 기능
++ 추천 수는 한 아이디 당 한 번만 추천할 수 있음
++ 👇 로그인 안 했을 때
+<img src="https://user-images.githubusercontent.com/119985133/232641394-2aa132fd-fc8b-4ca5-b4cd-e2c26c4f627e.png" width="600">
+ 👇 로그인 했을 때
+<img src="https://user-images.githubusercontent.com/119985133/232641406-bbe5fcee-022b-4686-8f04-fdfee5e32e66.png" width="600">
 
-## Learn More
+#### 6. 공지사항 & 자유 게시판
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
++ 공지사항은 관리자 이외의 회원은 글을 쓸 수 없음
++ 자유 게시판 페이지에만 페이지 기능 적용
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧱 보완(수정) 해야 할 점!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. 영화 검색 후 일치하는 검색 결과가 없을 때 '일치하는 검색 결과가 없습니다.'라는 문구 나오게 하기 & CSS 수정
+2. 상세 페이지에 영화 한줄평에 페이징 기능 추가하기
+3. 영화 한줄평 작성 후 수정 가능하게 만들기
+4. 로딩중일 때 스피너나 스켈레톤 적용하기
+5. 공지사항 & 자유 게시판 CSS 수정
+6. 자유 게시판 조회수 기능 추가하기
